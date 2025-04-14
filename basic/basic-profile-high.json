@@ -1,0 +1,52 @@
+{
+    "profile": {
+        "uuid": "8ee419dd-54b4-4fa0-b4b6-db48d35819a0",
+        "metadata": {
+            "title": "Example Profile - High",
+            "published": "2025-04-14T00:00:00.000000-04:00",
+            "last-modified": "2025-04-14T00:00:00.000000-04:00",
+            "version": "1.0",
+            "oscal-version": "1.1.3",
+            "remarks": "This is an example profile that references the basic catalog. This version is a higher baseline than the low profile."
+        },
+        "imports": [
+            {
+                "href": "../basic-catalog.json",
+                "include-controls": [
+                    {
+                        "with-ids": [
+                            "tc-1",
+                            "oc-1",
+                            "tc-2",
+                            "oc-2"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "modify": {
+            "set-parameters": [
+                {
+                    "param-id": "tc-1-lock-time",
+                    "values": [
+                        "5 minutes"
+                    ]
+                },
+                {
+                    "param-id": "oc-1-training-frequency",
+                    "values": [
+                        "6 months"
+                    ]
+                },
+                {
+                    "param-id": "tc-2-encryption algorithm",
+                    "select": ""
+                },
+                {
+                    "param-id": "oc-2-door-options",
+                    "select": ""
+                }
+            ]
+        }
+    }
+}

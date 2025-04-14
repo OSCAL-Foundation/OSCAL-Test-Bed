@@ -4,9 +4,12 @@ Welcome to the home of the OSCAL Foundation Test Bed Project. Here, the Technica
 
 # Current list of documents
 
-DocumentName - Document Description
-DocumentName - Document Description
-DocumentName - Document Description
+basic-catalog.json - A simple catalog with four basic controls, each with a straightforward parameter.
+
+basic-profile-low - A simple profile that selects two of the controls from the above catalog and sets their parameters.
+
+basic-profile-high - A simple profile that selects all four of the controls from the above catalog and sets their parameters to more strict values.
+
 
 # Contributing
 
