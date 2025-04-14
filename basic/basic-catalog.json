@@ -48,10 +48,10 @@
                                 "select": {
                                     "how-many": "one",
                                     "choice": [
-                                      "FIPS 140-2 compliant AES-256 encryption.",
-                                      "RSA 2048-bit encryption."
+                                        "FIPS 140-2 compliant AES-256 encryption.",
+                                        "RSA 2048-bit encryption."
                                     ]
-                                  }
+                                }
                             }
                         ]
                     }
@@ -95,10 +95,10 @@
                                 "select": {
                                     "how-many": "one",
                                     "choice": [
-                                      "remain locked at all times, requiring a keycard for entry.",
-                                      "have a security guard present during business hours."
+                                        "remain locked at all times, requiring a keycard for entry.",
+                                        "have a security guard present during business hours."
                                     ]
-                                  }
+                                }
                             }
                         ]
                     }
