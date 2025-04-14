@@ -2,13 +2,11 @@
 
 Welcome to the home of the OSCAL Foundation Test Bed Project. Here, the Technical Working Group (TWG) is collaboratively creating a set of example OSCAL documents to enable testing and education activities.
 
-# Current list of documents
+# Current document groups
 
-basic-catalog.json - A simple catalog with four basic controls, each with a straightforward parameter.
+basic - This set of documents is meant to represent a minimum set of OSCAL Documents to provide very basic examples of how OSCAL functions.
 
-basic-profile-low - A simple profile that selects two of the controls from the above catalog and sets their parameters.
-
-basic-profile-high - A simple profile that selects all four of the controls from the above catalog and sets their parameters to more strict values.
+advanced - This set of documents is meant to cover the entire OSCAL schema in order to test edge cases or explore specific use cases.
 
 
 # Contributing
